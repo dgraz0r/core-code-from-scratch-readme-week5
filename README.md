@@ -25,3 +25,31 @@ Algoritmo convertidor
 	Escribir convt(150000)
   
 FinAlgoritmo
+
+## COMPARE DISTANCES
+
+Funcion res <- compareDistances ()
+
+	Definir res Como Logico
+	Definir pos, neg Como Real
+	neg = 0
+	pos = 0
+	Para i=1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Ingrese un numero: "
+		Leer num
+		Si num > 0 Entonces
+			pos = pos + num
+		SiNo
+			neg = neg + num
+		Fin Si
+		res = pos > abs(neg)
+	Fin Para
+	
+FinFuncion
+
+Algoritmo Compare
+
+	Escribir compareDistances()
+	
+FinAlgoritmo
+

@@ -76,3 +76,19 @@ Algoritmo exampleSumOfPairs
 	
 FinAlgoritmo
 
+## MID POINT
+
+Funcion res <- midPoint (num1, num2)
+	
+	res = (num1 + num2)/2
+	
+FinFuncion
+
+Algoritmo Mid
+
+	Escribir midPoint(-40,-80)
+	Escribir midPoint(40,-80)
+	Escribir midPoint(50,50)
+	Escribir midPoint(-50,50)
+	
+FinAlgoritmo

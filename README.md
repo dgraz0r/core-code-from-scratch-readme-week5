@@ -53,3 +53,26 @@ Algoritmo Compare
 	
 FinAlgoritmo
 
+## SUM OF PAIRS
+
+Funcion res <- sumOfPairs()
+
+	Definir res Como Entero
+	sum = 0
+	Repetir
+		Escribir "Ingrese un numbero entre 1 y 100"
+		Leer num
+		Si num % 2 = 0 Entonces
+			sum = sum + num
+		Fin Si
+	Mientras Que num > 0 & num < 100
+	res = sum
+	
+FinFuncion
+
+Algoritmo exampleSumOfPairs
+	
+	Escribir sumOfPairs()
+	
+FinAlgoritmo
+

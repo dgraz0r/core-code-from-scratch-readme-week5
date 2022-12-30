@@ -186,7 +186,7 @@ if (grade >= 5 ) {
   console.log('You have failed')
 }
 
-## WHILE STATEMENT
+## WHILE STATEMENT (JAVASCRIPT)
 
 let i = 1;
 
@@ -195,3 +195,8 @@ while (i < 15) {
   i++;
 }
 
+## FOR STATEMENT (JAVASCRIPT)
+
+for (let i = 1; i < 11; i++) {
+  console.log('Esta es la prueba ' + i)
+}

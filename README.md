@@ -176,3 +176,10 @@ Algoritmo WeatherAverage
 	
 FinAlgoritmo
 
+## IF STATEMENT (JAVASCRIPT)
+
+if (grade >= 5 ) {
+  console.log('You have approved')
+} else {
+  console.log('You have failed')
+}

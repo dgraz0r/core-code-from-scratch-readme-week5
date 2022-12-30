@@ -134,3 +134,45 @@ Algoritmo exampleCashier
 	Escribir cashier()
 	
 FinAlgoritmo
+
+## WEATHER AVERAGE
+
+Funcion celsius <- conversor(fahr)
+
+	celsius = (fahr - 32) / 1.8
+	
+FinFuncion
+
+Algoritmo WeatherAverage
+
+	count=0
+	total=0
+	Repetir
+		Escribir "Seleccione una opcion: "
+		Escribir "a. Grados Celsius"
+		Escribir "b. Grados Fahrenheit"
+		Escribir "x. Salir"
+		Leer opc
+		Segun opc Hacer
+			"a":
+				Escribir "Ingrese la cantidad en grados centigrados"
+				leer cel
+				count = count + 1
+				total = total + cel
+			"b":
+				Escribir "Ingrese la cantidad en grados Fahrenheit"
+				leer cel
+				count = count + 1
+				total = total + conversor(cel)
+			De Otro Modo:
+				
+				Escribir "Saliendo del programa"
+				
+		Fin Segun
+	Mientras Que opc = "a" | opc = "b"
+	
+	Escribir ""
+	Escribir "El promedio es: ", total/count
+	
+FinAlgoritmo
+

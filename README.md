@@ -178,8 +178,20 @@ FinAlgoritmo
 
 ## IF STATEMENT (JAVASCRIPT)
 
+let grade = 8;
+
 if (grade >= 5 ) {
   console.log('You have approved')
 } else {
   console.log('You have failed')
 }
+
+## WHILE STATEMENT
+
+let i = 1;
+
+while (i < 15) {
+  console.log('Esto es una prueba');
+  i++;
+}
+

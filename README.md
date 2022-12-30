@@ -92,3 +92,45 @@ Algoritmo Mid
 	Escribir midPoint(-50,50)
 	
 FinAlgoritmo
+
+## CASHIER
+
+Funcion balance <- cashier()
+
+	balance = 1000
+	Escribir "Balance inicial: ", balance
+	Repetir
+		Escribir ""
+		Escribir "Seleccione una opcion: "
+		Escribir "a. Deposito"
+		Escribir "b. Retiro"
+		Escribir "c. Salir"
+		Leer opc
+		Si opc = "a" Entonces
+			balance = balance + deposito()
+		SiNo
+			balance = balance - retiro()
+		Fin Si
+	Mientras Que opc <> "a" | opc <> "b"
+	
+FinFuncion
+
+Funcion ValA <- deposito()
+
+	Escribir "¿Cuanto dinero desea depositar?"
+	Leer ValA
+	
+FinFuncion
+
+Funcion ValB <- retiro()
+
+	Escribir "¿Cuanto dinero desea retirar?"
+	Leer ValB
+	
+FinFuncion
+
+Algoritmo exampleCashier
+
+	Escribir cashier()
+	
+FinAlgoritmo
